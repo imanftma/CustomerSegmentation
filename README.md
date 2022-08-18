@@ -11,7 +11,7 @@ We will be segmenting the customers in our source data using unsupervised machin
 - Our data source is a csv file.
 - The data has 541909 rows and 8 columns. We have sales data related to customers. 
 - The variables are InvoiceNo, StockCode, Description, Quantity InvoiceDate, UnitPrice, CustomerID  and Country  
-
+</br>
 **MODELS**
 K_means_clustering:
 Determining number of clusters for our rfm uk data.
