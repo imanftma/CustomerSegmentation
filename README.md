@@ -14,7 +14,7 @@ We will be segmenting the customers in our source data using unsupervised machin
 
 </br>
 
-**MODELS**
+## MODELS
 
 **K_means_clustering:**
 Determining number of clusters for our rfm uk data.
@@ -26,6 +26,9 @@ After removing the outliers from our data, we apply k means clustering which giv
 - Cluster 1 has high monetary values, low recency and moderate frequency
 - Cluster 2 have moderate monetary values, low to moderate frequency and low to moderate recency. 
 This is also evident by the means of these values for every cluster
+
+![image](https://user-images.githubusercontent.com/86319382/185499873-8c4036f8-6486-4fd3-b944-540109ef3b37.png)
+
  
 **Recommendations:**
  Cluster 0 are at the most risk of churning. They spend less and shop less frequently.
@@ -33,10 +36,13 @@ We can set up a referral selling plan for these customers, in which they get off
 Cluster 1 are good customers as they are big spenders and shop often and more recently. There should be a rewards point for these so they remain loyal to the business.
 Cluster 2  customers need more attention. As the recency is very high, it is possible these customers shopped only once. We can contact these customers and do a feedback survey.
 
-## Hierarchical clustering method
+**Hierarchical clustering method**
 For Hierarchical clustering we determine the number of clusters from the dendrogram which comes out to be 2.
 This model gives us 2 clusters instead of 3.
 The mean values for our clusters are,
+
+![image](https://user-images.githubusercontent.com/86319382/185499831-5009b522-2d4a-4169-b20e-4eaf2a1a2ed9.png)
+
 
  **Results:**
 Cluster 0 define good/loyal customers while cluster 1 are customers that are risky or need attention.
