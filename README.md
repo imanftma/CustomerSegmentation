@@ -11,9 +11,12 @@ We will be segmenting the customers in our source data using unsupervised machin
 - Our data source is a csv file.
 - The data has 541909 rows and 8 columns. We have sales data related to customers. 
 - The variables are InvoiceNo, StockCode, Description, Quantity InvoiceDate, UnitPrice, CustomerID  and Country  
+
 </br>
+
 **MODELS**
-K_means_clustering:
+
+**K_means_clustering:**
 Determining number of clusters for our rfm uk data.
 To determine the optimal number of clusters, we have to select the value of k at the “elbow” i.e the point after which the distortion/inertia start decreasing in a linear fashion. Thus for the given data, we conclude that the optimal number of clusters for the data is 3.
 After removing the outliers from our data, we apply k means clustering which gives us 3 clusters of customers.
@@ -30,7 +33,7 @@ We can set up a referral selling plan for these customers, in which they get off
 Cluster 1 are good customers as they are big spenders and shop often and more recently. There should be a rewards point for these so they remain loyal to the business.
 Cluster 2  customers need more attention. As the recency is very high, it is possible these customers shopped only once. We can contact these customers and do a feedback survey.
 
-# Hierarchical clustering method
+## Hierarchical clustering method
 For Hierarchical clustering we determine the number of clusters from the dendrogram which comes out to be 2.
 This model gives us 2 clusters instead of 3.
 The mean values for our clusters are,
